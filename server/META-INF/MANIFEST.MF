@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: netty-3.6.6.Final.jar mongo-java-driver-2.9.3.jar
+Main-Class: org.moparforia.server.Server
+

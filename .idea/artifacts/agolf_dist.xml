@@ -1,0 +1,31 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="agolf-dist">
+    <output-path>$PROJECT_DIR$/out/artifacts/agolf_dist</output-path>
+    <root id="archive" name="agolf-dist.jar">
+      <element id="directory" name="com">
+        <element id="dir-copy" path="$PROJECT_DIR$/out/production/client/com/aapeli" />
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/out/production/client/Shared" />
+      <element id="file-copy" path="$PROJECT_DIR$/out/production/client/appletloader_playforia.gif" />
+      <element id="directory" name="l10n">
+        <element id="directory" name="en_US">
+          <element id="file-copy" path="$PROJECT_DIR$/out/production/client/l10n/en_US/AGolf.xml" />
+          <element id="file-copy" path="$PROJECT_DIR$/out/production/client/l10n/en_US/Shared.xml" />
+        </element>
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/out/production/client/AGolf" />
+      <element id="directory" name="org">
+        <element id="directory" name="moparforia">
+          <element id="directory" name="client">
+            <element id="file-copy" path="$PROJECT_DIR$/out/production/client/org/moparforia/client/Launcher$Game.class" />
+            <element id="file-copy" path="$PROJECT_DIR$/out/production/client/org/moparforia/client/Launcher$Stub.class" />
+            <element id="file-copy" path="$PROJECT_DIR$/out/production/client/org/moparforia/client/Launcher.class" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/manifests/agolf/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
